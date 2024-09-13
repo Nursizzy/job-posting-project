@@ -56,4 +56,5 @@ All Firebase configurations and requests are located in the `shared/requests` di
 ## Future Improvements
 - Enhance search functionality with proper indexing
 - Styling using scss will be better
-- Further refinement of UX/UI based on user feedback
+- Wrap some function to useCallback or useMemo for optimization
+- 

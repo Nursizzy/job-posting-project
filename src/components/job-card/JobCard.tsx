@@ -114,7 +114,7 @@ export const JobCard = ({ posting } : JobCardProps) => {
 
           {expanded && (
           <Flex justify="end">
-            <Button type="primary" onClick={() => navigate(`/application/${posting.id}`)}>
+            <Button type="primary" onClick={() => navigate(`/job-listing-seeker/application/${posting.id}`)}>
               <CheckCircleOutlined />
               Apply for a Job
             </Button>

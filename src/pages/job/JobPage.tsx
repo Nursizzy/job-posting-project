@@ -59,7 +59,7 @@ export const JobPage = () => {
 
   return (
     <Flex vertical className={'full-height'}>
-      <Space size={6} onClick={() => navigate(-1)} className={'back-button'}>
+      <Space size={6} onClick={() => navigate(-1)} className={'back-button-container'}>
         <ArrowLeftOutlined className={'back-button'}/>
 
         <Typography.Text className={'back-button'}>

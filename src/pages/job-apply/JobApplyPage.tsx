@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 // @ts-ignore
 import InputMask from 'react-input-mask';
 import { useNavigate, useParams } from 'react-router-dom';
-import { UploadOutlined } from '@ant-design/icons';
+import {ArrowLeftOutlined, UploadOutlined} from '@ant-design/icons';
 import {
-  Button, Col, Flex, Form, Input, message, notification, Row, Typography, Upload, UploadFile,
+  Button, Col, Flex, Form, Input, message, notification, Row, Space, Typography, Upload, UploadFile,
 } from 'antd';
 
 import { submitApplication } from '../../shared/requests/firebase-requests';
@@ -56,6 +56,14 @@ export const JobApplyPage = () => {
 
   return (
     <Flex vertical className={'full-height overflow-y-auto'}>
+      <Space size={6} onClick={() => navigate(-1)} className={'back-button-container'}>
+        <ArrowLeftOutlined className={'back-button'}/>
+
+        <Typography.Text className={'back-button'}>
+          Back to List
+        </Typography.Text>
+      </Space>
+
       <MetaHelmet
           title="JP: Job Application Page"
           description={`Job Application #${application_id}`}

@@ -45,7 +45,7 @@ export const routes: RouteObject[] = [
         )
       },
       {
-        path: '/job-posting',
+        path: '/job-listing-recruiter/job-posting',
         element: (
             <Suspense fallback={<Loading />}>
               <JobPostingPage />
@@ -53,7 +53,7 @@ export const routes: RouteObject[] = [
         )
       },
       {
-        path: '/application/:id',
+        path: '/job-listing-seeker/application/:id',
         element: (
             <Suspense fallback={<Loading />}>
               <JobApplyPage />
@@ -61,7 +61,7 @@ export const routes: RouteObject[] = [
         )
       },
       {
-        path: '/job/:id',
+        path: '/job-listing-recruiter/job/:id',
         element: (
             <Suspense fallback={<Loading />}>
               <JobPage />

@@ -105,6 +105,11 @@ button:focus-visible {
   color: #73bb44;
   cursor: pointer;
 }
+.back-button-container {
+  color: #73bb44;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
 .full-height {
     height: 100%;
 }

@@ -32,7 +32,7 @@ export const JobListingRecruiterPage = () => {
   }, []);
 
   const handleCreate = () => {
-    navigate('/job-posting');
+    navigate('/job-listing-recruiter/job-posting');
   };
 
   useEffect(() => {
@@ -109,7 +109,7 @@ export const JobListingRecruiterPage = () => {
             : (
               <List.Item
                 actions={[
-                  <Button onClick={() => navigate(`/job/${item.id}`)} disabled={loading || deleting}>
+                  <Button onClick={() => navigate(`/job-listing-recruiter/job/${item.id}`)} disabled={loading || deleting}>
                     <EditOutlined />
                     Edit
                   </Button>,

@@ -104,6 +104,21 @@ export const JobCreate = ({ initialData } : JobCreateProps) => {
             </Col>
 
             <Col
+                xs={24}
+                sm={12}
+                md={8}
+                lg={6}
+            >
+              <Form.Item
+                  name="company_name"
+                  label="Company Name"
+                  rules={[{ required: true, message: 'Please enter a company name' }]}
+              >
+                <Input placeholder="Enter company name..." />
+              </Form.Item>
+            </Col>
+
+            <Col
               xs={24}
               sm={12}
               md={8}

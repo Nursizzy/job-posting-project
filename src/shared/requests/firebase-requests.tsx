@@ -61,8 +61,6 @@ export const fetchPostingsForRecruiterList = (setLoading:(value:boolean)=>void, 
     // @ts-ignore
     q = query(q, where('status', '==', filterStatus));
   }
-  // @ts-ignore
-    q = query(q, orderBy('created_at', 'desc'));
 
   const unsubscribe = onSnapshot(q, (snapshot:any) => {
     setPostings(snapshot.docs.map((doc:any) => ({ ...doc.data(), id: doc.id })));

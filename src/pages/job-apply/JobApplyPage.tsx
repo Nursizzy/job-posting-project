@@ -1,13 +1,11 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 // @ts-ignore
 import InputMask from 'react-input-mask';
-import { useNavigate, useParams } from 'react-router-dom';
+import {useNavigate, useParams} from 'react-router-dom';
 import {ArrowLeftOutlined, UploadOutlined} from '@ant-design/icons';
-import {
-  Button, Col, Flex, Form, Input, message, notification, Row, Space, Typography, Upload, UploadFile,
-} from 'antd';
+import {Button, Col, Flex, Form, Input, notification, Row, Space, Typography, Upload, UploadFile,} from 'antd';
 
-import { submitApplication } from '../../shared/requests/firebase-requests';
+import {submitApplication} from '../../shared/requests/firebase-requests';
 import {MetaHelmet} from "../../shared/ui/meta-helmet/MetaHemlet";
 
 export const JobApplyPage = () => {

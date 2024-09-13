@@ -1,6 +1,6 @@
-import { lazy, Suspense } from 'react';
-import { createBrowserRouter, Navigate, RouteObject } from 'react-router-dom';
-import { RootLayout } from '../layout/RootLayout';
+import {lazy, Suspense} from 'react';
+import {createBrowserRouter, Navigate, RouteObject} from 'react-router-dom';
+import {RootLayout} from '../layout/RootLayout';
 import {Spin} from "antd";
 
 const lazyLoad = <T extends React.ComponentType<any>>(

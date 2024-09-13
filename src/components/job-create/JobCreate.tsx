@@ -1,12 +1,10 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import {
-  Button, Col, Form, Input, InputNumber, notification, Row, Select, Space, Tooltip,
-} from 'antd';
-import { useForm } from 'antd/es/form/Form';
+import {useEffect, useState} from 'react';
+import {useNavigate} from 'react-router-dom';
+import {Button, Col, Form, Input, InputNumber, notification, Row, Select, Space, Tooltip,} from 'antd';
+import {useForm} from 'antd/es/form/Form';
 
 import {currencies, experiences, industries, locations} from '../../shared/data';
-import { publishJobPosting, saveJobPostingAsDraft } from '../../shared/requests/firebase-requests';
+import {publishJobPosting, saveJobPostingAsDraft} from '../../shared/requests/firebase-requests';
 import {JobCreateProps} from "../../shared/types/recruiter";
 import {PostingType} from "../../shared/types/seeker";
 

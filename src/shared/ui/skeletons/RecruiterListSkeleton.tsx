@@ -1,4 +1,4 @@
-import { Flex } from 'antd';
+import {Flex} from 'antd';
 import SkeletonInput from 'antd/es/skeleton/Input';
 
 export const RecruiterListSkeleton = () => (

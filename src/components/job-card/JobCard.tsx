@@ -1,22 +1,16 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import {
-  BankOutlined, CheckCircleOutlined, EnvironmentOutlined
-} from '@ant-design/icons';
-import {
-  Button, Card, Divider, Flex, Space, Tag, Typography,
-} from 'antd';
+import {useState} from 'react';
+import {useNavigate} from 'react-router-dom';
+import {BankOutlined, CheckCircleOutlined, EnvironmentOutlined} from '@ant-design/icons';
+import {Button, Card, Divider, Flex, Space, Typography,} from 'antd';
 import Paragraph from 'antd/es/typography/Paragraph';
 
 // @ts-ignore
-import dayjs, { Dayjs } from 'dayjs';
+import dayjs, {Dayjs} from 'dayjs';
 
 // @ts-ignore
 import relativeTime from 'dayjs/plugin/relativeTime';
 
-import {
-  currencies, experiences, industries, locations,
-} from '../../shared/data';
+import {currencies, experiences, industries, locations,} from '../../shared/data';
 import {JobCardProps} from "../../shared/types/seeker";
 
 

@@ -1,7 +1,7 @@
 // @ts-ignore
-import { initializeApp } from 'firebase/app';
+import {initializeApp} from 'firebase/app';
 // @ts-ignore
-import { getFirestore } from 'firebase/firestore';
+import {getFirestore} from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyC_OBgQYGnesfy4ig-x7121RlLb-k_U8RY',

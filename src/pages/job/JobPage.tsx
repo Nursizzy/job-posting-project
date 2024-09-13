@@ -1,13 +1,11 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
-import {
-  Flex, notification, Space, Spin, Tabs, Typography,
-} from 'antd';
+import {Flex, notification, Space, Spin, Tabs, Typography,} from 'antd';
 import Title from 'antd/es/typography/Title';
 
-import { ApplicationsList } from '../../components/applications-list/ApplicationsList';
-import { JobCreate } from '../../components/job-create/JobCreate';
-import { fetchJobData } from '../../shared/requests/firebase-requests';
+import {ApplicationsList} from '../../components/applications-list/ApplicationsList';
+import {JobCreate} from '../../components/job-create/JobCreate';
+import {fetchJobData} from '../../shared/requests/firebase-requests';
 import {PostingType} from "../../shared/types/seeker";
 import {MetaHelmet} from "../../shared/ui/meta-helmet/MetaHemlet";
 import {ArrowLeftOutlined} from "@ant-design/icons";

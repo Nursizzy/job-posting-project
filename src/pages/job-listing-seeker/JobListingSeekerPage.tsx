@@ -1,13 +1,11 @@
-import { useEffect, useState } from 'react';
-import { ControlOutlined } from '@ant-design/icons';
-import {
-  Card, Col, Drawer, FloatButton, List, Row,
-} from 'antd';
+import {useEffect, useState} from 'react';
+import {ControlOutlined} from '@ant-design/icons';
+import {Card, Col, Drawer, FloatButton, List, Row,} from 'antd';
 
-import { JobCard } from '../../components/job-card/JobCard';
-import { JobFilters } from '../../components/job-filters/JobFilters';
-import { SeekersListSkeleton } from '../../shared/ui/skeletons/SeekersListSkeleton';
-import { fetchPostingsForSeekerList } from '../../shared/requests/firebase-requests';
+import {JobCard} from '../../components/job-card/JobCard';
+import {JobFilters} from '../../components/job-filters/JobFilters';
+import {SeekersListSkeleton} from '../../shared/ui/skeletons/SeekersListSkeleton';
+import {fetchPostingsForSeekerList} from '../../shared/requests/firebase-requests';
 import {FiltersType} from "../../shared/types/seeker";
 import {MetaHelmet} from "../../shared/ui/meta-helmet/MetaHemlet";
 

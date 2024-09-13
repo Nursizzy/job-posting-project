@@ -1,13 +1,9 @@
-import { useEffect, useState } from 'react';
-import {
-  FileTextOutlined, MailOutlined, PhoneOutlined, UserOutlined,
-} from '@ant-design/icons';
-import {
-  Avatar, Button, Flex, List, notification, Space, Typography,
-} from 'antd';
+import {useEffect, useState} from 'react';
+import {FileTextOutlined, MailOutlined, PhoneOutlined, UserOutlined,} from '@ant-design/icons';
+import {Avatar, Button, Flex, List, notification, Space, Typography,} from 'antd';
 import Paragraph from 'antd/es/typography/Paragraph';
 
-import { fetchApplications } from '../../shared/requests/firebase-requests';
+import {fetchApplications} from '../../shared/requests/firebase-requests';
 import {ApplicationsListProps, ApplicationType} from "../../shared/types/recruiter";
 
 

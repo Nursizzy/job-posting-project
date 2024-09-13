@@ -1,7 +1,5 @@
-import { Outlet, useLocation, useNavigate } from 'react-router-dom';
-import {
-  Layout, Menu, Typography,
-} from 'antd';
+import {Outlet, useLocation, useNavigate} from 'react-router-dom';
+import {Layout, Menu, Typography,} from 'antd';
 
 const { Header, Content } = Layout;
 

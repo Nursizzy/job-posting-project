@@ -1,11 +1,7 @@
-import { useEffect, useState } from 'react';
-import {
-  Button, Col, Form, Row, Select, Space,
-} from 'antd';
+import {useEffect, useState} from 'react';
+import {Button, Col, Form, Row, Select, Space,} from 'antd';
 
-import {
-  currencies, experiences, industries, locations,
-} from '../../shared/data';
+import {currencies, experiences, industries, locations,} from '../../shared/data';
 import {FiltersType, JobFiltersProps} from "../../shared/types/seeker";
 
 

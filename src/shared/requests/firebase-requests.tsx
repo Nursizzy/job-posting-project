@@ -1,22 +1,18 @@
-import { notification, UploadFile } from 'antd';
+import {notification, UploadFile} from 'antd';
 import {
   addDoc,
   collection,
   deleteDoc,
   doc,
-  getDoc, getDocs,
+  getDoc,
+  getDocs,
   onSnapshot,
-  orderBy,
   query,
   serverTimestamp,
   updateDoc,
   where,
-  // @ts-ignore
 } from 'firebase/firestore';
-import {
-  getDownloadURL, getStorage, ref, uploadBytes,
-  // @ts-ignore
-} from 'firebase/storage';
+import {getDownloadURL, getStorage, ref, uploadBytes,} from 'firebase/storage';
 
 import dp from './firebase';
 import {FiltersType, PostingType} from "../types/seeker";

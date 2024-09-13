@@ -4,7 +4,9 @@ import {
   DollarOutlined,
   FireOutlined,
   HeartOutlined,
-  MergeOutlined, SettingOutlined, ShoppingCartOutlined,
+  MergeOutlined,
+  SettingOutlined,
+  ShoppingCartOutlined,
   SmileOutlined,
 } from '@ant-design/icons';
 

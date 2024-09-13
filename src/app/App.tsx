@@ -1,5 +1,5 @@
-import { RouterProvider } from 'react-router-dom';
-import { ConfigProvider } from 'antd';
+import {RouterProvider} from 'react-router-dom';
+import {ConfigProvider} from 'antd';
 
 import {router} from './routing/routes';
 import {theme} from "../shared/theme";

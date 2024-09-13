@@ -1,15 +1,11 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import {
-  CheckCircleOutlined, DeleteOutlined, EditOutlined, PlusOutlined, SignatureOutlined,
-} from '@ant-design/icons';
-import {
-    Button, Flex, FloatButton, List, Modal, Radio, Tag,
-} from 'antd';
+import {useEffect, useState} from 'react';
+import {useNavigate} from 'react-router-dom';
+import {CheckCircleOutlined, DeleteOutlined, EditOutlined, PlusOutlined, SignatureOutlined,} from '@ant-design/icons';
+import {Button, Flex, FloatButton, List, Modal, Radio, Tag,} from 'antd';
 import Paragraph from 'antd/es/typography/Paragraph';
 
-import { RecruiterListSkeleton } from '../../shared/ui/skeletons/RecruiterListSkeleton';
-import { fetchPostingsForRecruiterList, handlePostingDelete } from '../../shared/requests/firebase-requests';
+import {RecruiterListSkeleton} from '../../shared/ui/skeletons/RecruiterListSkeleton';
+import {fetchPostingsForRecruiterList, handlePostingDelete} from '../../shared/requests/firebase-requests';
 import {PostingType} from "../../shared/types/seeker";
 import {MetaHelmet} from "../../shared/ui/meta-helmet/MetaHemlet";
 

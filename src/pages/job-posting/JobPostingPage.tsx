@@ -1,8 +1,8 @@
 import {Divider, Flex, Space, Typography} from 'antd';
 import Title from 'antd/es/typography/Title';
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
-import { JobCreate } from '../../components/job-create/JobCreate';
+import {JobCreate} from '../../components/job-create/JobCreate';
 import {MetaHelmet} from "../../shared/ui/meta-helmet/MetaHemlet";
 import {ArrowLeftOutlined} from "@ant-design/icons";
 

@@ -40,8 +40,6 @@ export const fetchPostingsForSeekerList = (setLoading: (value:boolean) => void, 
     q = query(q, where('experienceId', 'in', filters.experienceId));
   }
 
-  q = query(q, orderBy('posted_at', 'desc'));
-
   const unsubscribe = onSnapshot(q, (snapshot:any) => {
     const postedJobs = snapshot.docs.map((doc:any) => ({
       ...doc.data(),

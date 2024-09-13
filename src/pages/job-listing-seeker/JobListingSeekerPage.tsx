@@ -19,6 +19,7 @@ export const JobListingSeekerPage = () => {
     industryId: [],
     experienceId: [],
   });
+  console.log(postings)
   const [loading, setLoading] = useState(true);
   const [drawerVisible, setDrawerVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

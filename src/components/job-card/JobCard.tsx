@@ -57,7 +57,7 @@ export const JobCard = ({ posting } : JobCardProps) => {
             {getRelativeTime(posting.posted_at)}
           </Text>
 
-          <Title level={4} className={'zero-margin'}>{posting.title}</Title>
+          <Title level={4} style={{margin:0}}>{posting.title}</Title>
 
           <Space>
             <BankOutlined />

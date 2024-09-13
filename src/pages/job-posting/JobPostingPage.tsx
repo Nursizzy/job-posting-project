@@ -23,7 +23,7 @@ export const JobPostingPage = () => {
           </Typography.Text>
       </Space>
 
-    <Title level={4} className={'zero-margin'}>
+    <Title level={4} style={{margin:0}}>
       New Job Posting
     </Title>
 

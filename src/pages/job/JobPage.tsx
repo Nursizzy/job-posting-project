@@ -69,7 +69,7 @@ export const JobPage = () => {
           description={`Job Posting #${id}`}
       />
 
-      <Title level={4} className={'zero-margin'}>
+      <Title level={4} style={{margin:0}}>
         {`Job Posting #${id}`}
       </Title>
 

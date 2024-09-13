@@ -66,7 +66,7 @@ export const JobApplyPage = () => {
           title="JP: Job Application Page"
           description={`Job Application #${application_id}`}
       />
-        <Typography.Title level={2} className={'zero-margin'}>Job Application</Typography.Title>
+        <Typography.Title level={2} style={{margin:0}}>Job Application</Typography.Title>
 
         <Form form={form} layout="vertical">
           <Row gutter={[16, 16]} >
